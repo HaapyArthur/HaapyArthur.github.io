@@ -17,14 +17,14 @@
 
     <url>
         <loc>http://yoursite-url/tags/spring/</loc>
-        <lastmod>2019-04-11T10:03:53.076Z</lastmod>
+        <lastmod>2019-04-11T10:19:12.111Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://yoursite-url/tags/%E5%8D%95%E4%BE%8B/</loc>
-        <lastmod>2019-04-11T10:03:53.076Z</lastmod>
+        <lastmod>2019-04-11T10:19:12.111Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
