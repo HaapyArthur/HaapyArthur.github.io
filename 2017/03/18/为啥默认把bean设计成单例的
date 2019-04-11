@@ -14,11 +14,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-          Tags - Beantech | 豆科技
+          Spring 为啥默认把bean设计成单例的? - Beantech | 豆科技
         
     </title>
 
-    <link rel="canonical" href="http://yoursite-url/tags/">
+    <link rel="canonical" href="http://yoursite-url/2017/03/18/为啥默认把bean设计成单例的?/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -69,8 +69,8 @@
 <style type="text/css">
     header.intro-header{
         
-            background-image: url('/img/header_img/tag-bg.png')
-            /*page*/
+            background-image: url('Demo.png')
+            /*post*/
         
     }
     
@@ -87,10 +87,20 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 
-                    <div class="site-heading">
-                        <h1>Tags</h1>
-                        <!--<hr class="small">-->
-                        <span class="subheading">Hey, this is Tags.</span>
+                    <div class="post-heading">
+                        <div class="tags">
+                            
+                              <a class="tag" href="/tags/#spring" title="spring">spring</a>
+                            
+                              <a class="tag" href="/tags/#单例" title="单例">单例</a>
+                            
+                        </div>
+                        <h1>Spring 为啥默认把bean设计成单例的?</h1>
+                        <h2 class="subheading">Spring 为啥默认把bean设计成单例的?.</h2>
+                        <span class="meta">
+                            Posted by John Doe on
+                            2017-03-18
+                        </span>
                     </div>
                 
 
@@ -193,135 +203,216 @@
 
 
     <!-- Main Content -->
-    <!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <!-- 标签云 -->
-            <div id="tag_cloud" class="tags">
-                
-                    <a href="#spring" title="spring" rel="1">spring</a>
-                
-                    <a href="#单例" title="单例" rel="1">单例</a>
-                
-                    <a href="#Hexo" title="Hexo" rel="1">Hexo</a>
-                
-                    <a href="#Blog" title="Blog" rel="1">Blog</a>
-                
-            </div>
+    <!-- Modify by Yu-Hsuan Yen -->
 
-            <!-- 标签列表 -->
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
 
-            
-            <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="spring">
-                    <span class="tag-text">spring</span>
-                </span>
-                
-                  <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-                 <div class="post-preview">
-                     <a href="/2017/03/18/为啥默认把bean设计成单例的?/">
-                        <h2 class="post-title">
-                            Spring 为啥默认把bean设计成单例的?
-                        </h2>
-                        
-                            <h3 class="post-subtitle">
-                                Spring 为啥默认把bean设计成单例的?.
-                            </h3>
-                        
-                    </a>
-                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-                </div>
-                <hr>
-                
-            </div>
-            
-            <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="单例">
-                    <span class="tag-text">单例</span>
-                </span>
-                
-                  <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-                 <div class="post-preview">
-                     <a href="/2017/03/18/为啥默认把bean设计成单例的?/">
-                        <h2 class="post-title">
-                            Spring 为啥默认把bean设计成单例的?
-                        </h2>
-                        
-                            <h3 class="post-subtitle">
-                                Spring 为啥默认把bean设计成单例的?.
-                            </h3>
-                        
-                    </a>
-                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-                </div>
-                <hr>
-                
-            </div>
-            
-            <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="Hexo">
-                    <span class="tag-text">Hexo</span>
-                </span>
-                
-                  <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-                 <div class="post-preview">
-                     <a href="/2017/03/18/hexo-theme-beantech/">
-                        <h2 class="post-title">
-                            [Hexo] Theme BeanTech
-                        </h2>
-                        
-                            <h3 class="post-subtitle">
-                                This is hexo theme Demo.
-                            </h3>
-                        
-                    </a>
-                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-                </div>
-                <hr>
-                
-            </div>
-            
-            <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="Blog">
-                    <span class="tag-text">Blog</span>
-                </span>
-                
-                  <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-                 <div class="post-preview">
-                     <a href="/2017/03/18/hexo-theme-beantech/">
-                        <h2 class="post-title">
-                            [Hexo] Theme BeanTech
-                        </h2>
-                        
-                            <h3 class="post-subtitle">
-                                This is hexo theme Demo.
-                            </h3>
-                        
-                    </a>
-                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-                </div>
-                <hr>
-                
-            </div>
-            
+            <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
 
+                <p>上次分享了Redis相关问题的分享， <a href="https://juejin.im/post/5ca9d8ae6fb9a05e5c05c4e8" target="_blank" rel="noopener">【Redis面试题】Redis的字符串是怎么实现的？</a>之后今天想在分享一篇有关spring bean相关的内容。原问题大概是先问了我spring bean作用域相关问题，最后问了我<font color="red">spring 为啥默认把bean设计成单例的？</font><br>
+我打算从以下几方面讲起：</p>
+<ul>
+<li>单例bean与原型bean的区别</li>
+<li>单例bean的优势</li>
+<li>单例bean的劣势</li>
+<li>总结</li>
+</ul>
+<hr>
+<p>熟悉spring开发的朋友都知道spring 提供了5种scope分别是singleton, prototype, request, session,global session。如下图是官方文档上的截图，感兴趣的朋友可以进去看看这五种分别有什么不同。今天要介绍的是这五种中的前两种，也是spring最初提供的bean scope singleton 和 prototype。</p>
+<p>spring 官方文档介绍如下图：<br>
+<img src="https://user-gold-cdn.xitu.io/2019/4/9/16a00f405aa3b36f?w=4732&amp;h=1208&amp;f=png&amp;s=2558116" alt><br>
+更多内容可以看官方文档介绍，非常详细：<a href="https://docs.spring.io/spring/docs/3.0.0.M3/reference/html/ch04s04.html" target="_blank" rel="noopener">Spring bean作用域</a></p>
+<h3><span id="单例bean与原型bean的区别">单例bean与原型bean的区别</span></h3>
+<p>如果一个bean被声明为单例的时候，在处理多次请求的时候在spring 容器里只实例化出一个bean，后续的请求都公用这个对象，这个对象会保存在一个map里面。当有请求来的时候会先从缓存(map)里查看有没有，有的话直接使用这个对象，没有的话才实例化一个新的对象，所以这是个单例的。但是对于原型(prototype)bean来说当每次请求来的时候直接实例化新的bean，没有缓存以及从缓存查的过程。</p>
+<p><strong>1.画图分析</strong></p>
+<p><img src="https://user-gold-cdn.xitu.io/2019/4/9/16a00c4e51d1721c?w=2692&amp;h=1140&amp;f=png&amp;s=390796" alt></p>
+<p><img src="https://user-gold-cdn.xitu.io/2019/4/9/16a00c523428a4a1?w=2748&amp;h=1156&amp;f=png&amp;s=484297" alt></p>
+<p><strong>2.源码分析</strong></p>
+<p>生成bean时先判断单例的还是原型的</p>
+<p><img src="https://user-gold-cdn.xitu.io/2019/4/9/16a00cc2b566610e?w=3648&amp;h=2400&amp;f=png&amp;s=1795000" alt></p>
+<p>如果是单例的则先尝试从缓存里获取，没有在新创建</p>
+<p><img src="https://user-gold-cdn.xitu.io/2019/4/9/16a00ce861b35aa6?w=3788&amp;h=2716&amp;f=png&amp;s=2595734" alt></p>
+<font color="red">
+结论：   
+<p>1.单例的bean只有第一次创建新的bean 后面都会复用该bean，所以不会频繁创建对象。</p>
+<p>2.原型的bean每次都会新创建</p>
+</font>
+<h3><span id="单例bean的优势">单例bean的优势</span></h3>
+<p>由于不会每次都新创建新对象所以有一下几个性能上的优势：<br>
+1.减少了新生成实例的消耗<br>
+新生成实例消耗包括两方面，第一，spring会通过反射或者cglib来生成bean实例这都是耗性能的操作，其次给对象分配内存也会涉及复杂算法</p>
+<p>2.减少jvm垃圾回收<br>
+由于不会给每个请求都新生成bean实例，所以自然回收的对象少了</p>
+<p>3.可以快速获取到bean<br>
+因为单例的获取bean操作除了第一次生成之外其余的都是从缓存里获取的所以很快</p>
+<p>有关bean实例化相关可以看着篇文章：<a href="https://juejin.im/post/5ca42bfa6fb9a05e17799e07" target="_blank" rel="noopener">Spring 源码分析之 bean 实例化原理</a></p>
+<h3><span id="单例bean的劣势">单例bean的劣势</span></h3>
+<p>单例的bean一个很大的劣势就是他不能做到<strong>线程安全！！！</strong>，由于所有请求都共享一个bean实例，所以这个bean要是有状态的一个bean的话可能在并发场景下出现问题，而原型的bean则不会有这样问题（但也有例外，比如他被单例bean依赖），因为给每个请求都新创建实例。关于这方面我正在准备写一篇文章，在整理当中，感兴趣的朋友可以关注我，我后续写一篇详细的文章。</p>
+<h3><span id="总结">总结</span></h3>
+<p>Spring 为啥把bean默认设计成单例？<br>
+答案：为了提高性能！！！从几个方面，1.少创建实例2.垃圾回收3.缓存快速获取<br>
+单例有啥劣势？<br>
+如果是有状态的话在并发环境下线程不安全</p>
+<p>有关spring bean的线程安全相关话题，我会在下一篇文章中写出。<br>
+<br><br></p>
+<hr>
+<p><br><br><br>
+<strong>其他文章</strong></p>
+<p><a href="https://juejin.im/post/5ca9d8ae6fb9a05e5c05c4e8" target="_blank" rel="noopener">【Redis面试题】Redis的字符串是怎么实现的？</a></p>
+<p><a href="https://juejin.im/post/5ca42bfa6fb9a05e17799e07" target="_blank" rel="noopener">Spring 源码分析之 bean 实例化原理？</a></p>
+<p><a href="https://juejin.im/post/5ca6fd485188250d9e1bda0c" target="_blank" rel="noopener">Spring 源码分析之 bean 依赖注入原理(注入属性)</a></p>
+<p><a href="https://juejin.im/post/5c926b545188252da40d11f7" target="_blank" rel="noopener">Spring源码分析之 lazy-init 实现原理</a></p>
 
+                
+
+                <hr>
+                <!-- Pager -->
+                <ul class="pager">
+                    
+                    
+                        <li class="next">
+                            <a href="/2017/03/18/hexo-theme-beantech/" data-toggle="tooltip" data-placement="top" title="[Hexo] Theme BeanTech">Next Post &rarr;</a>
+                        </li>
+                    
+                </ul>
+
+                <!-- duoshuo Share start -->
+                
+                <!-- 多说 Share end-->
+
+                <!-- 多说评论框 start -->
+                
+                <!-- 多说评论框 end -->
+
+                <!-- disqus comment start -->
+                
+                    <div class="comment">
+                        <div id="disqus_thread" class="disqus-thread"></div>
+                    </div>
+                
+                <!-- disqus comment end -->
+            </div>
+            
+            <!-- Tabe of Content -->
+            <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">Contents</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">单例bean与原型bean的区别</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">单例bean的优势</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">单例bean的劣势</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">总结</span></a></li></ol>
+        
+        </div>
+      </aside>
+    
+
+                
+            <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <!-- no hr -->
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                       
+                          <a class="tag" href="/tags/#spring" title="spring">spring</a>
+                        
+                          <a class="tag" href="/tags/#单例" title="单例">单例</a>
+                        
+                    </div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+
+                    
+                        <li><a href="http://beantech.org" target="_blank">Bean Tech</a></li>
+                    
+                        <li><a href="http://blog.kaijun.rocks" target="_blank">Kaijun&#39;s Blog</a></li>
+                    
+                        <li><a href="http://huangxuan.me" target="_blank">Hux Blog</a></li>
+                    
+                        <li><a href="#" target="_blank">It Helps SEO</a></li>
+                    
+                </ul>
+                
+            </div>
         </div>
     </div>
-</div>
+</article>
+
+
+
+
+<!-- disqus embedded js code start (one page only need to embed once) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "your-disqus-ID";
+    var disqus_identifier = "http://yoursite-url/2017/03/18/为啥默认把bean设计成单例的?/";
+    var disqus_url = "http://yoursite-url/2017/03/18/为啥默认把bean设计成单例的?/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus embedded js code start end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'left',
+          icon: 'ℬ'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
 
 
     <!-- Footer -->
